@@ -1,0 +1,39 @@
+.card-container {
+  margin: 0px 10px 20px 10px;
+  background: #EDEDED;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#car-card {
+  width: 73.47%;
+  margin-top: 14px;
+}
+
+.card-container h1 {
+  font-size: 18px;
+  color: #000;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+
+.card-container p {
+  font-size: 14px;
+  font-style: italic;
+  color: #585858;
+  margin-left: 22px;
+  margin-bottom: 38px;
+}
+
+.card-container a {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #00285F;
+  border-radius: 5px;
+  color: #FFF;
+  padding: 12px 95px;
+  margin-bottom: 15px;
+}
