@@ -1,0 +1,75 @@
+.buscar-container {
+  background: #EDEDED;
+  border-radius: 10px;
+  height: 86px;
+  margin: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buscar-container input {
+  width: 66.33%;
+  height: 40px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 14px;
+  color: #A7A7A7;
+  padding-left: 13px;
+}
+
+.buscar-container button {
+  width: 25.67%;
+  height: 40px;
+  background: #00285F;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  color: #FFF;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .buscar-container {
+    height: 123px;
+    margin: 30px 20px;
+  }
+  .buscar-container input {
+    width: 59.70%;
+  }
+  .buscar-container button {
+    width: 32.46%;
+  }
+}
+
+@media (min-width: 768px) {
+  .buscar-container input {
+    width: 70.88%;
+  }
+  .buscar-container button {
+    width: 23.90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .buscar-container input {
+    width: 61.34%;
+    padding-left: 24px;
+  }
+  .buscar-container button {
+    width: 18.28%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .buscar-container {
+    margin: 30px 150px;
+  }
+  .buscar-container input {
+    width: 59.65%;
+  }
+  .buscar-container button {
+    width: 17.77%;
+  }
+}

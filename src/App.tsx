@@ -2,13 +2,13 @@ import React from "react";
 import "./assets/styles/custom.scss";
 import "./App.css";
 import Navbar from "components/Navbar";
-import Home from "pages/Home";
+import Catalogo from "pages/Catalogo";
 
 function App() {
 	return (
 		<>
 			<Navbar />
-			<Home />
+			<Catalogo />
 		</>
 	);
 }
