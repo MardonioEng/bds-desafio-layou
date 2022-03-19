@@ -1,5 +1,5 @@
 .card-container {
-  margin: 0px 10px 20px 10px;
+  /* margin: 0px 10px 20px 10px; */
   background: #EDEDED;
   border-radius: 10px;
   display: flex;
@@ -36,4 +36,29 @@
   color: #FFF;
   padding: 12px 95px;
   margin-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+  .card-container p {
+    font-size: 12px;
+  }
+  .card-container a {
+    padding: 12px 75px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-container p {
+    font-size: 14px;
+    margin-right: 22px;
+  }
+  .card-container a {
+    padding: 10px 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-container a {
+    padding: 10px 99px;
+  }
 }
