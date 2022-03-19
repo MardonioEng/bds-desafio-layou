@@ -1,13 +1,13 @@
-import React from "react";
 import 'bootstrap/js/src/collapse.js';
 import "./styles.css";
 import { ReactComponent as MenuHamburguer } from "../../assets/images/menu-hamburguer.svg";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-sm navbar-dark bg-primary main-nav">
+		<nav className="navbar navbar-expand-sm navbar-dark bg-primary main-nav navbar-fixed-top">
 			<div className="container-fluid">
-				<a href="/">Carros Top</a>
+				<Link to="/">Carros Top</Link>
 
 				<button
 					className="navbar-toggler"
@@ -24,12 +24,12 @@ const Navbar = () => {
 				<div className="collapse navbar-collapse" id="carrostop-navbar">
 					<ul className="navbar-nav ms-auto main-menu">
 						<li>
-							<a href="/" className="active">
+							<Link to="/" className="active">
 								Home
-							</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/">Catálogo</a>
+							<Link to="/catalogo">Catálogo</Link>
 						</li>
 					</ul>
 				</div>
